@@ -185,6 +185,9 @@ li .skill-item {
 .projects {
   display: inline-flex;
   z-index: 1;
+  flex-wrap: wrap;
+  min-width: 100px;
+  justify-content: center;
 }
 
 .project-img {
